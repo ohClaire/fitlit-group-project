@@ -196,7 +196,7 @@ hydrationFormPopup.addEventListener('submit', (event) => {
   if (!newHydrationData.date.includes('/') || !isLessThanCurrentDate) {
     alert(checkFormDate(newHydrationData.date, todayDate));
   } else {
-    postData('http://localhost:3001/api/v1/activity', newHydrationData);
+    postData('http://localhost:3001/api/v1/hydration', newHydrationData);
     event.target.reset();
   }
 });
@@ -216,7 +216,7 @@ sleepFormPopup.addEventListener('submit', (event) => {
   if (!newSleepData.date.includes('/') || !isLessThanCurrentDate) {
     alert(checkFormDate(newSleepData.date, todayDate));
   } else {
-    postData('http://localhost:3001/api/v1/activity', newSleepData);
+    postData('http://localhost:3001/api/v1/sleep', newSleepData);
     event.target.reset();
   }
 });
@@ -285,9 +285,9 @@ function loadConditions(data) {
   if (!hydration.ounces.find((data) => data.date == chosenDate) 
   && !sleep.sleepDataPerUser.find((entry) => entry.date === chosenDate) 
   && !activity.usersActivity.find((input) => input.date === chosenDate)) {
-    alert ('no data at all!!')
-    return 'no data at all!!'
-  }
+    alert('No data at all for this date.')
+    return 'No data at all for this date.'
+  } 
   charts.renderOuncesByWeek(hydration, chosenDate);
   charts.renderOuncesPerDay(hydration, chosenDate);
   charts.renderSleepChartByDay(sleep, chosenDate);
@@ -332,3 +332,4 @@ function setTodayDate(formDate) {
     return false;
   }
 }
+
