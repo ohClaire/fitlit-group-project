@@ -79,16 +79,16 @@ You can find the project [here](https://github.com/emilyjmiles/fitlit-group-proj
 <img src="https://media.giphy.com/media/6QMupVufGnhGwmbZpj/giphy.gif" width=100%>|<p align="center"><br/><img src="https://media.giphy.com/media/5D3KvzWgqlYy7nBR5x/giphy.gif" width=77%></p>
 
 New feature ideas: 
-- [ ] During Part Two of the project:
-    - [ ] The activity box will contain a chart that displays the user's daily activity.
-    - [ ] Add a weekly graph of the users activity.
-    - [ ] A user will be able to add data to their hydration, sleep, or activity.
-    - [ ] A user will be able to see the comparison of their data to all the users average data.
-- [ ] The friends buttons will be clickable to display their information instead of the user that appeared when the page loaded. 
-- [ ] The friends hydration and sleep information can be displayed in a box as an average between them.
-- [ ] The user will be able to toggle between different sets of charts.
-- [ ] The user will be able to change the weekly data projected in the charts.
-- [ ] The user details is hidden and viewable after a click on their profile icon.
+- [x] During Part Two of the project:
+    - [x] The activity box will contain a chart that displays the user's daily activity.
+    - [x] Add a weekly graph of the users activity.
+    - [x] A user will be able to add data to their hydration, sleep, or activity.
+    - [x] A user will be able to see the comparison of their data to all the users average data.
+- [x] The friends buttons will be clickable to display their information instead of the user that appeared when the page loaded. 
+- [x] The friends hydration and sleep information can be displayed in a box as an average between them.
+- [x] The user will be able to toggle between different sets of charts.
+- [x] The user will be able to change the weekly data projected in the charts.
+- [x] The user details is hidden and viewable after a click on their profile icon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
