@@ -32,6 +32,7 @@ FitLit is an application built in week 10 of the [Turing School of Software and 
 * Generate user data and charts through data manipulation
 * Utilize Lighthouse and Wave for accessibility
 * Make network requests to API endpoints to retrieve and manipulate data
+* Implement error handling 
 * Implement third party packages
 
 
@@ -122,15 +123,15 @@ The following resources helped us build this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Reflections
-We worked on making the UI/UX design of our page to be responsive to ensure that it is easy to navigate and viewable on any device. We wanted our page to be user accessible by carefully choosing the font and color scheme, as well as using semantic html for screen reader accessibilty. 
+We worked on making the UI/UX design of our page to be responsive to ensure that it is easy to navigate and viewable on any device. We wanted our page to be user accessible by carefully choosing the font and color scheme, as well as using semantic html for screen reader accessibility.
 
-In Part 1, we learned how to retrieve data from provided Endpoints to create our bar charts. It required a lot of research and  how to properly configure them to look uniform with our page. We hope to project user data in other chart forms that will more concisely show the user their progress.
+In Part 1, we learned how to retrieve data from provided Endpoints to create our bar charts. It required a lot of research and how to properly configure them to look uniform with our page. We hope to project user data in other chart forms that will more concisely show the user their progress.
 
-At the start of this project, we were all concerned about the size and complexity of the work that needed to be done. To our surprise, the experience was much smoother and less stressful than we had anticipated. We feel this was due to our continuous communication and supportive teamwork throughout the project. 
+At the start of this project, we were all concerned about the size and complexity of the work that needed to be done. To our surprise, the experience was much smoother and less stressful than we had anticipated. We feel this was due to our continuous communication and supportive teamwork throughout the project.
 
-In Part 2, we learned how to work with more complex data sets, work with a local server, how to post data to a server and we built upon our knowledge of how to display the data we worked with in our charts. As our styling was mostly finished by part 1, this time for part 2 was mostly spent improving functionality and making sure our validations were working properly. We implemented preventative error handling in our input fields so only valid data to be posted to the server, as well as handling for failed HTTP requests and server errors.  
+In Part 2, we learned how to work with more complex data sets, work with a local server, how to post data to a server and we built upon our knowledge of how to display the data we worked with in our charts. As our styling was mostly finished by Part 1, this time for Part 2 was mostly spent improving functionality and making sure our validations were working properly. We implemented preventative error handling in our input fields so only valid data to be posted to the server, as well as handling for failed HTTP requests and server errors.
 
-We continued our excellent communication and support of one another to enhance our working conditions. We successfully completed this project working asychronously and holding standups to discuss our work to verify everyone understood the changes before pushing them up. We are all very proud of the work we did with this project!
+We continued our excellent communication and support of one another to enhance our working conditions. We successfully completed this project working asynchronously and holding stand-ups to discuss our work to verify everyone understood the changes before pushing them up. We are all very proud of the work we did with this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
