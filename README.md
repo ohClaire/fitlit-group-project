@@ -32,6 +32,7 @@ FitLit is an application built in week 10 of the [Turing School of Software and 
 * Generate user data and charts through data manipulation
 * Utilize Lighthouse and Wave for accessibility
 * Make network requests to API endpoints to retrieve and manipulate data
+* Implement error handling 
 * Implement third party packages
 
 
@@ -79,16 +80,16 @@ You can find the project [here](https://github.com/emilyjmiles/fitlit-group-proj
 <img src="https://media.giphy.com/media/6QMupVufGnhGwmbZpj/giphy.gif" width=100%>|<p align="center"><br/><img src="https://media.giphy.com/media/5D3KvzWgqlYy7nBR5x/giphy.gif" width=77%></p>
 
 New feature ideas: 
-- [ ] During Part Two of the project:
-    - [ ] The activity box will contain a chart that displays the user's daily activity.
-    - [ ] Add a weekly graph of the users activity.
-    - [ ] A user will be able to add data to their hydration, sleep, or activity.
-    - [ ] A user will be able to see the comparison of their data to all the users average data.
-- [ ] The friends buttons will be clickable to display their information instead of the user that appeared when the page loaded. 
-- [ ] The friends hydration and sleep information can be displayed in a box as an average between them.
-- [ ] The user will be able to toggle between different sets of charts.
-- [ ] The user will be able to change the weekly data projected in the charts.
-- [ ] The user details is hidden and viewable after a click on their profile icon.
+- [x] During Part Two of the project:
+    - [x] The activity box will contain a chart that displays the user's daily activity.
+    - [x] Add a weekly graph of the users activity.
+    - [x] A user will be able to add data to their hydration, sleep, or activity.
+    - [x] A user will be able to see the comparison of their data to all the users average data.
+- [x] The friends buttons will be clickable to display their information instead of the user that appeared when the page loaded. 
+- [x] The friends hydration and sleep information can be displayed in a box as an average between them.
+- [x] The user will be able to toggle between different sets of charts.
+- [x] The user will be able to change the weekly data projected in the charts.
+- [x] The user details is hidden and viewable after a click on their profile icon.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,15 +123,15 @@ The following resources helped us build this project:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Reflections
-We worked on making the UI/UX design of our page to be responsive to ensure that it is easy to navigate and viewable on any device. We wanted our page to be user accessible by carefully choosing the font and color scheme, as well as using semantic html for screen reader accessibilty. 
+We worked on making the UI/UX design of our page to be responsive to ensure that it is easy to navigate and viewable on any device. We wanted our page to be user accessible by carefully choosing the font and color scheme, as well as using semantic html for screen reader accessibility.
 
-In Part 1, we learned how to retrieve data from provided Endpoints to create our bar charts. It required a lot of research and  how to properly configure them to look uniform with our page. We hope to project user data in other chart forms that will more concisely show the user their progress.
+In Part 1, we learned how to retrieve data from provided Endpoints to create our bar charts. It required a lot of research and how to properly configure them to look uniform with our page. We hope to project user data in other chart forms that will more concisely show the user their progress.
 
-At the start of this project, we were all concerned about the size and complexity of the work that needed to be done. To our surprise, the experience was much smoother and less stressful than we had anticipated. We feel this was due to our continuous communication and supportive teamwork throughout the project. 
+At the start of this project, we were all concerned about the size and complexity of the work that needed to be done. To our surprise, the experience was much smoother and less stressful than we had anticipated. We feel this was due to our continuous communication and supportive teamwork throughout the project.
 
-In Part 2, we learned how to work with more clomplex data sets, how to post data to a server and we built upon our knowledge of how to display the data we worked with in charts. As our styling was mostly finished by part 1, this time for part 2 was mostly spent improving functionality and making sure our validations were working properly.
+In Part 2, we learned how to work with more complex data sets, work with a local server, how to post data to a server and we built upon our knowledge of how to display the data we worked with in our charts. As our styling was mostly finished by Part 1, this time for Part 2 was mostly spent improving functionality and making sure our validations were working properly. We implemented preventative error handling in our input fields so only valid data to be posted to the server, as well as handling for failed HTTP requests and server errors.
 
-We continued our excellent communication and support of one another to enhance our working conditions. We are all very proud of the work we did with this project!
+We continued our excellent communication and support of one another to enhance our working conditions. We successfully completed this project working asynchronously and holding stand-ups to discuss our work to verify everyone understood the changes before pushing them up. We are all very proud of the work we did with this project!
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
