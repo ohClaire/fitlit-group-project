@@ -655,7 +655,7 @@ class UserRepository {
   getAllUsersAverages(type, date) {
     const typeData = this.data.filter(data => data.date === date);
     const typeTotal = typeData.reduce((sum, data) => {
-      sum += data[type];
+      sum += parseInt(data[type]);
       return sum;
     }, 0);
 
