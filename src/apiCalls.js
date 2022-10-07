@@ -1,5 +1,6 @@
 const fetchData = (fileName, dataKey) => {
   return fetch(`https://fitlit-api.herokuapp.com/api/v1/${fileName}`)
+  // http://localhost:3001/api/v1/
     .then((response) => response.json())
     .then((data) => data[dataKey])
     .catch((error) =>
