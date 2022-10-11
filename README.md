@@ -114,6 +114,8 @@ Cole Anthony - [LinkedIn](https://www.linkedin.com/in/cole-edwin-anthony/) - col
 ## Acknowledgments
 The following resources helped us build this project:
 
+- Icons from [Icons8](https://icons8.com/)
+
 [![MDN Docs][MDN-shield]][MDN]
 [![Chart.js][Charts]][charts-url]
 [![Chart.js-tutorials][youtube-shield]][charts-youtube-link]
