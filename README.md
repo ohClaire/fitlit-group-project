@@ -66,7 +66,9 @@ You can find the project [here](https://github.com/emilyjmiles/fitlit-group-proj
    npm start
    ``` 
 3. Enter the following url in your browser: http://localhost:8080/
-4. Explore the website.
+4. Enter control + c in your terminal to stop the local server at any time.
+5. You will also need to clone down this local api server: https://github.com/turingschool-examples/fitlit-api outside of the Fitlit directory, follow the installation instructions, and have it running in a separate tab in your terminal each time you run the client.
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
