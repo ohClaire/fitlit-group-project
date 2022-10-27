@@ -66,14 +66,16 @@ You can find the project [here](https://github.com/emilyjmiles/fitlit-group-proj
    npm start
    ``` 
 3. Enter the following url in your browser: http://localhost:8080/
-4. Explore the website.
+4. Enter control + c in your terminal to stop the local server at any time.
+5. You will also need to clone down this local api server: <https://github.com/turingschool-examples/fitlit-api> outside of the Fitlit directory, follow the installation instructions, and have it running in a separate tab in your terminal each time you run the client.
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 * The program displays user data through text and charts when the page loads
-<!-- <img width="1428" alt="Screen Shot 2022-09-04 at 12 14 24 PM" src="https://user-images.githubusercontent.com/94808267/188327742-03ee3310-d07a-498b-8213-637de49ab7ef.png"> -->
 
 | Destktop View | Mobile View |
 |---------------|-----------------|
@@ -114,6 +116,7 @@ Cole Anthony - [LinkedIn](https://www.linkedin.com/in/cole-edwin-anthony/) - col
 ## Acknowledgments
 The following resources helped us build this project:
 
+- Icons from [Icons8](https://icons8.com/)
 [![MDN Docs][MDN-shield]][MDN]
 [![Chart.js][Charts]][charts-url]
 [![Chart.js-tutorials][youtube-shield]][charts-youtube-link]
@@ -132,6 +135,8 @@ At the start of this project, we were all concerned about the size and complexit
 In Part 2, we learned how to work with more complex data sets, work with a local server, how to post data to a server and we built upon our knowledge of how to display the data we worked with in our charts. As our styling was mostly finished by Part 1, this time for Part 2 was mostly spent improving functionality and making sure our validations were working properly. We implemented preventative error handling in our input fields so only valid data to be posted to the server, as well as handling for failed HTTP requests and server errors.
 
 We continued our excellent communication and support of one another to enhance our working conditions. We successfully completed this project working asynchronously and holding stand-ups to discuss our work to verify everyone understood the changes before pushing them up. We are all very proud of the work we did with this project!
+
+NOTE: For the purpose of deploying this app with live data, I switched my fetch to the Heroku endpoints.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
